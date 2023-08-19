@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <section id="header"> 
+     <a href=""><img src="images/san.png" alt=""></a>
+     <!-- <input type="search"  placeholder="search"><span><input type="submit" value="submit"></span> -->
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class=" bootstapnav">
+     <nav class="navbar navbar-expand-lg navbar-light ">
+ 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-5" id="navbarNav">
+        <ul class="navbar-nav pl-5">
+          <li class="nav-item active">
+            <a class="nav-link pl-5 " href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-5  text-dark "class="Uppercase" href="other-files/buy.html">buy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-5  text-dark" href="other-files/contact.html">contact us</a>
+          </li>
+          
+          <li class="nav-item pl-5 ">
+            <a class="nav-link  text-dark" href="other-files/about.html">about us</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link pl-5  text-dark" href="other-files/resister.html">sign in</a>
+          </li>
+          
+          <li id="shopcart"><a href="other-files/singlepro.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+   </div>
+
+
+
+
+
+
+  </section>
+  <!-- navaigation ended -->
+  
+
+  <!-- main parts started -->
+<section id="hero">
+ <input type="button"  id="thetogal" value="Login Here" class="btn btn-success ml-5 mb-5" data-toggle="modal" data-target="#myModal">
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content text-white font-weight-bold">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">login here </h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+        <form class=" ml-4" onsubmit="return loginvalidate()">
+          <label for="fname">Username</label><br>
+          <input type="text" id="fname" name="fname" oninput="clearErr('spanfname')"><span id="spanfname" ></span><br>
+          <label for="lname">Password</label><br>
+          <input type="password" id="lname" name="lname" oninput="clearErr('spanlname')"><span id="spanlname"></span><br>
+          <input type="submit" value="submit" class="mt-5 btn btn-warning">
+
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button"   class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <!-- the model ends -->
+ <div class="textonbackimg">
+  <h4>shop smart , shop more !</h4>
+  <h2> up to 30% off on all product.. </h2>
+  <h1> dont miss out!</h1>
+  <p>get 50% off on you first order..</p>
+  <a href="other-files/singlepro.html"><input type="submit" value="shop now" class="btnn">
+  </a>
+ </div>
+  </section>
+
+  <!-- main part ended here -->
+<section class="mt-5 mb-4 text-center  text-capitalize font-weight-bold " >
+  <p style="font-size: 30px;">what we provide</p>
+  <hr class="w-25  m-auto">
+</section>
+<!-- the feature part started -->
+<section id="feature" class="section-p1">
+
+<div class="fe-box" style="height: 285px;">
+  <img src="images/fastdelivery.png" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px;">fast delevery</h5>
+</div>
+
+
+<div class="fe-box">
+  <img src="images/cashondelivery.png" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">cash on delevery</h5>
+</div>
+
+<div class="fe-box"  style="height: 285px;">
+  <img src="images/moneyback.jpg" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">money back</h5>
+</div>
+
+
+<div class="fe-box"  style="height: 285px;">
+  <img src="images/online.png" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">online</h5>
+</div>
+
+<div class="fe-box">
+  <img src="images/trustedbrand.jpg" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">trusted brands</h5>
+</div>
+
+<div class="fe-box">
+  <img src="images/customersatisfaction.jpg" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">satisfied customers</h5>
+</div>
+
+<!-- <div class="fe-box">
+  <img src="images/fastdelivery.png" alt="">
+  <h5 class="text-center text-capitalize bg-warning mt-4 border " style="border-radius: 3px; padding: 0px 4px;">free delevery</h5>
+</div> -->
+</section>
+<!-- the features is ended here -->
+
+<section class="mt-5 mb-4 text-center  text-capitalize font-weight-bold " >
+  <p style="font-size: 30px;">new collection for you</p>
+  <hr class="w-25  m-auto">
+</section>
+
+<!-- new collection for you starts here -->
+
+<section  class="mainprod">  
+<div class="myfetured_products">
+<img src="images/productimages/apple-iphone-12.jpg" alt="">
+<p >iphone 12</p>
+<div>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
+<h4 class="productprize">$263</h4>
+<button  onclick="sweetalert()" class="addtocart">buy now</button>
+
+</div>
+
+<div class="myfetured_products">
+  <img src="images/productimages/samsung-galaxy-s21-fe-5g.jpg" alt="">
+  <p >samsung galaxy s21</p>
+  <div>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <h4 class="productprize">$466</h4>
+  <button onclick="sweetalert()" class="addtocart">buy now</button>
+  
+  </div>
+
+  <div class="myfetured_products">
+    <img src="images/productimages/oneplus-nord-3r.jpg" alt="">
+    <p >oneplus nord 3r</p>
+    <div>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <h4 class="productprize">$263</h4>
+    <button onclick="sweetalert()" class="addtocart">buy now</button>
+    
+    </div>
+
+    <div class="myfetured_products">
+      <img src="images/productimages/motorola-edge-40.jpg" alt="">
+      <p >motorala edge 40</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h4 class="productprize">$113</h4>
+      <button onclick="sweetalert()" class="addtocart">buy now</button>
+      
+      </div>
+
+      <div class="myfetured_products">
+        <img src="images/productimages/oppo-find-x6-pro.jpg" alt="">
+        <p >oppo find x6 pro</p>
+        <div>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4 class="productprize">$283</h4>
+        <button onclick="sweetalert()" class="addtocart">buy now</button>
+        
+        </div>
+
+        <div class="myfetured_products">
+          <img src="images/productimages/vivo-v27.jpg" alt="">
+          <p >vivo v27</p>
+          <div>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4 class="productprize">$363</h4>
+          <button onclick="sweetalert()" class="addtocart">buy now</button>
+          
+          </div>
+
+          <div class="myfetured_products">
+            <img src="images/productimages/nokia-x30-5g.jpg" alt="">
+            <p >nokia x30 5g</p>
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4 class="productprize">$263</h4>
+            <button onclick="sweetalert()" class="addtocart">buy now</button>
+            
+            </div>
+
+            <div class="myfetured_products">
+              <img src="images/productimages/oppo-reno10-pro-plus.jpg" alt="">
+              <p >oppo reno10 pro plus</p>
+              <div>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4 class="productprize">$134</h4>
+              <button onclick="sweetalert()"  class="addtocart">buy now</button>
+              
+              </div>
+
+              <div class="myfetured_products">
+                <img src="images/productimages/samsung-galaxy-s21-fe-5g.jpg" alt="">
+                <p >samsung galaxy s21 fe 5g</p>
+                <div>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="productprize">$268</h4>
+                <button onclick="sweetalert()" class="addtocart">buy now</button>
+                
+                </div>
+
+                <div class="myfetured_products">
+                  <img src="images/productimages/iqoo-neo-7-pro-1.jpg" alt="">
+                  <p >iqoo neo-7 pro 1</p>
+                  <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4 class="productprize">$63</h4>
+                  <button onclick="sweetalert()" class="addtocart">buy now</button>
+                  
+                  </div>
+
+
+
+
+</section>
+  <!-- new collection for you ended -->
+
+<!-- the banner -->
+
+
+<section>
+  <div class="mybanner">
+    <img src="images/banner.jpg" alt="">
+  </div>
+</section>
+<!-- upcomming products -->
+
+<section class="mt-5 mb-4 text-center  text-capitalize font-weight-bold " >
+  <p style="font-size: 30px;">upcomming products</p>
+  <hr class="w-25  m-auto">
+</section>
+
+
+<section  class="mainprod">  
+ 
+  <div class="myfetured_products">
+    <img src="images/productimages/samsung-galaxy-s21-fe-5g.jpg" alt="">
+    <p >samsung galaxy s21</p>
+    <div>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <h4 class="productprize">$466</h4>
+    <button onclick="sweetalert()" class="addtocart">buy now</button>
+    
+    </div>
+
+
+    <div class="myfetured_products">
+      <img src="images/productimages/apple-iphone-12.jpg" alt="">
+      <p >iphone 12</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h4 class="productprize">$263</h4>
+      <button onclick="sweetalert()" class="addtocart">buy now</button>
+      
+      </div>
+      
+  
+    <div class="myfetured_products">
+      <img src="images/productimages/oneplus-nord-3r.jpg" alt="">
+      <p >oneplus nord 3r</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h4 class="productprize">$263</h4>
+      <button onclick="sweetalert()" class="addtocart">buy now</button>
+      
+      </div>
+
+      
+      <div class="myfetured_products">
+        <img src="images/productimages/oppo-find-x6-pro.jpg" alt="">
+        <p >oppo find x6 pro</p>
+        <div>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4 class="productprize">$283</h4>
+        <button onclick="sweetalert()" class="addtocart">buy now</button>
+        
+        </div>
+  
+      <div class="myfetured_products">
+        <img src="images/productimages/motorola-edge-40.jpg" alt="">
+        <p >motorala edge 40</p>
+        <div>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4 class="productprize">$113</h4>
+        <button onclick="sweetalert()" class="addtocart">buy now</button>
+        
+        </div>
+  </section>
+  <!-- upcomming dended here -->
+
+
+  <!-- the footer starts -->
+  <footer>
+    <div class="formargin"> 
+        <div class="contactlogo">
+    <img src="images/san.png" alt="">
+    <h3>contact us</h3>
+    <p><b>Address : </b> 165, Railway Lines, · Saat Rasta, Solapur - 413001 · Post Box No. 52 </p>
+    <p><b>phone :</b> +91-9146040203</p>
+    <p><b>Timing :</b>09.00 A.M. TO 06.00 P.M.  mon-sat</p>
+  </div>
+
+   <div class="socialmedia">
+    <h3>follow us</h3>
+   <a href="#"> <i class="fab fa-facebook"></i></a>
+   <a href="https://www.linkedin.com/in/dharmanna-aivale-a01b76239/"> <i class="fab fa-linkedin"></i></a>
+   <a href="https://www.instagram.com/dharma_1403/"> <i class="fab fa-instagram"></i></a>
+   <a href="https://github.com/Dharmanna-Aivale"> <i class="fab fa-github"></i></a>
+
+
+   </div>
+  </div>
+
+
+ 
+  <div class="about">
+    <h3>about</h3>
+  <a href="#" class="decoretionnone">terms and conditions</a>
+  <a href="#" class="decoretionnone"> privecy polocy</a>
+  <a href="#" class="decoretionnone"> delivery information</a>
+  <a href="#" class="decoretionnone"> inquiries</a>
+  <a href="#" class="decoretionnone"> complains</a>
+   </div>
+  
+   <div class="install">
+    <h3>instal our app</h3>
+    <p> From play store and apple store</p>
+    <div class="row">
+      <a href="#"><img src="images/installapp/playsote.png" alt=""></a>
+      <a href=""> <img src="images/installapp/appstore.png" alt=""></a>
+      <!-- <p>the payment gateways</p>
+      <img src="images/installapp/paymentgateway.png" alt=""> -->
+    </div> 
+
+
+  </div>
+
+  </footer>
+  
+<script src="mainpage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

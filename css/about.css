@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* the header is started */
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 2px 2px 3px gray;
+    height: 80px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  #header a img {
+    height: 70px;
+    width: 170px;
+    /* width: 40%; */
+  }
+  
+  .bootstrapnav{
+    background-color: red;
+  
+  }
+  .navbar-nav{
+    text-transform: uppercase;
+    color: black;
+    margin-left: 50px;
+    font-weight: 900;
+  }
+  .navbar-nav:hover{
+    color: red;
+  }
+  
+  #tdecoration a{
+    text-decoration: none;
+  }
+  #tdecoration  i{
+  margin-left: 50px;
+  margin-top: 15px;
+  color: blue;
+  }
+  .navbar-nav li a{
+    color: black;
+    font-weight: 900;
+    
+  }
+  
+  
+  
+  .navbar-nav li{
+    list-style-type: none;
+    color: black;
+  
+  }
+  #shopcart{
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  #shopcart i{
+    color: blue;
+  
+  }
+  
+/* the header is ended here  */
+
+
+
+
+
+
+/* the slogan of about  */
+section .backimg{
+    background-image: url('../images/shopbanner.jpg');
+    width: 100%;
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .backimg h1{
+    color:green;
+    text-shadow: 2px 2px 2px black;
+    font-size: 70px;
+  }
+  /* the slogan of about ended  */
+
+
+/* the main middle part is  started here  */
+
+#about-head{
+  display: flex;
+  align-items: center;
+  margin: 30px 60px;
+}
+#about-head img{
+   width: 50%;
+   height: auto;
+   box-shadow: 0px 0px 15px 5px black;
+
+}
+
+#about-head div{
+
+margin-left: 50px;
+font-weight: 500;
+
+}
+#about-head h2{
+ text-transform: capitalize;
+}
+#about-head p{
+ text-indent: 30px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 700;
+}
+
+ marquee{
+  width: 700px;
+  background-color: red;
+  margin-left: 300px;
+
+}
+
+
+/* the main middle part is  ended here  */
+
+
+
+/* the feature started */
+.section-p1 {
+  margin: 2px 12px;
+}
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+}
+
+#feature .fe-box {
+  width: 160px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 10px 10px 15px gray;
+  border: 1px solid lightblue;
+}
+#feature .fe-box:hover {
+  box-shadow: 0px 0px 13px 4px black;
+}
+#feature .fe-box img {
+  width: 140px;
+  height: 150px;
+}
+/* feature ended */
+
+
+
+
+
+
+
+
+  
+  /* the footer starts here */
+  
+  footer {
+    position: relative;
+    background-image: linear-gradient(to top, purple, orange);
+    height: 290px;
+    box-shadow: 0px 0px 4px 5px black;
+  }
+  footer .formargin {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .contactlogo img {
+    height: 50px;
+    width: 100px;
+  }
+  
+  .contactlogo {
+    height: 230px;
+    width: 300px;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: 900;
+  }
+  
+  .contactlogo h3 {
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .socialmedia {
+    height: 230px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    margin-left: 49px;
+  }
+  .socialmedia h3 {
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .socialmedia i {
+    color: black;
+    margin-left: 10px;
+    transition: all linear 0.1s;
+  }
+  
+  .socialmedia i:hover {
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid black;
+    color: white;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  
+    width: 300px;
+    position: absolute;
+    left: 600px;
+    text-decoration: none;
+  }
+  .about h3 {
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .about a {
+    margin-top: 9px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+  }
+  .about a:hover {
+    color: white;
+    padding-left: 3px;
+  }
+  
+  .install {
+    width: 400px;
+    position: absolute;
+    left: 900px;
+  }
+  .install img {
+    height: 50px;
+    width: 100px;
+  }
+  .install h3 {
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  
+  .install {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 40px;
+  }
+  .install .row {
+    display: flex;
+    display: inline;
+  }
+  .install .row img {
+    margin-left: 20px;
+  }
+  /* the footer ended here */
+
+
+    /* the media queri started for mobile */
+    @media(min-width: 360px) and (max-width: 428px){
+      .navbar {
+    margin-left: 100px;
+    
+    }
+    .navbar-light .navbar-toggler{
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+    
+    }
+      .navbar-nav{
+        text-transform: uppercase;
+        color: white;
+      
+        margin-left:-160px;
+        margin-top:140px;
+        font-weight: 900;
+        background-color: rgba(0,0,0,0.5);
+    
+      }
+      .navbar-nav a{
+    color: black;
+      }
+      .navbar-nav li i{
+     margin-left: 60px;
+     color:blue;
+    }
+      .navbar-light .navbar-nav .nav-link{
+        color: black;
+      }
+      .collapse ul li a{
+        color: black;
+      }
+     
+      
+      
+      
+       #header a img {
+        height: 70px;
+        width: 170px;
+        margin-left: -70px;
+         /* width: 40%; */
+    
+       }
+    
+      /* additional  editing */
+
+      .backimg h1 {
+        color: green;
+        text-shadow: 2px 2px 2px black;
+        font-size: 30px;
+    }
+    #about-head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px 5px;
+  }
+  #about-head img {
+    width:350px;
+    height: auto;
+    box-shadow: 0px 0px 15px 5px black;
+}
+#about-head h2 {
+
+  margin: 20px 10px;
+  margin-left: 40px;
+}
+#about-head p {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+marquee{
+  
+
+  margin-left: -300px;
+
+}
+
+#feature .fe-box {
+  width: 110px;
+  height: 300px;
+  margin-top: 20px;
+
+  padding: 5px 15px;
+
+}
+
+#feature .fe-box img {
+  width: 80px;
+  height: auto;
+}
+          /* additional  editing */
+
+
+
+    .myfetured_products {
+    margin-left: 70px;
+    }
+    #feature .fe-box {
+      width: 110px;
+      height: 300px;
+    
+      padding: 5px 15px;
+    
+    }
+    #feature .fe-box img {
+      width: 80px;
+      height: auto;
+    }
+    
+    
+    footer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 900px;
+    
+    }
+    .contactlogo {
+      margin-left: 28px;
+    }
+    .socialmedia {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+      margin-left: 10px;
+    }
+    .about {
+      position: absolute;
+      top: 450px;
+      left: 30px;
+        margin-left: 10px;
+    
+    
+    }
+    
+    .install {
+      position: absolute;
+      top: 750px;
+      left: 30px;
+      margin-left: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* media for laptops */
+  @media (min-width: 992px)  {
+    .navbar {
+      margin-top: 5px;
+    }
+    
+    #shopcart i {
+      margin-left: -19px;
+    }
+    
+    #header a img {
+      margin-left: -20px;
+    }
+    
+    #header {
+      width: 1348px;
+    }
+    #about-head img {
+   height: 500px;
+  }
+  marquee {
+ 
+    margin-left: 150px;
+}
+
+  /* footer */
+  
+
+  .install {
+  /* display: none; */
+  margin-right: -95px;
+  /* visibility: hidden; */
+  }
+  .about {
+  margin-left: 75px;
+  }
+  .socialmedia {
+    margin-left: 75px;
+  }
+  footer {
+  width: 1348px;
+  }
+  }

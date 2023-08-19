@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* the header is started */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: 2px 2px 3px gray;
+  height: 80px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+#header a img {
+  height: 70px;
+  width: 170px;
+  /* width: 40%; */
+}
+
+.bootstrapnav{
+  background-color: red;
+
+}
+.navbar-nav{
+  text-transform: uppercase;
+  color: black;
+  margin-left: 50px;
+  font-weight: 900;
+}
+.navbar-nav:hover{
+  color: red;
+}
+
+#tdecoration a{
+  text-decoration: none;
+}
+#tdecoration  i{
+margin-left: 50px;
+margin-top: 15px;
+color: blue;
+}
+.navbar-nav li a{
+  color: black;
+  font-weight: 900;
+  
+}
+
+
+
+.navbar-nav li{
+  list-style-type: none;
+  color: black;
+
+}
+#shopcart{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#shopcart i{
+  color: blue;
+
+}
+
+main img{
+  width: 100%;
+  height: 150px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* main products stats */
+.mainprod {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 15px;
+}
+.myfetured_products {
+  width: 200px;
+  height: 320px;
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: 1px 1px 3px 3px gray;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+.myfetured_products:hover {
+  box-shadow: 0px 0px 10px 10px gray;
+}
+
+.myfetured_products img {
+  height: 170px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 20px;
+}
+.myfetured_products p {
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.myfetured_products i {
+  margin: 5px 5px;
+  color: orange;
+}
+
+.myfetured_products h4 {
+  font-weight: 700;
+  margin: 3px 5px;
+}
+.myfetured_products .addtocart {
+  color: white;
+  background-color: green;
+  margin: 3px 55px;
+  padding: 2px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+/* the main porduct ended */
+
+/* the footer starts here */
+
+footer {
+  position: relative;
+  background-image: linear-gradient(to top, purple, orange);
+  height: 290px;
+  box-shadow: 0px 0px 4px 5px black;
+}
+footer .formargin {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.contactlogo img {
+  height: 50px;
+  width: 100px;
+}
+
+.contactlogo {
+  height: 230px;
+  width: 300px;
+  position: absolute;
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.contactlogo h3 {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.socialmedia {
+  height: 230px;
+  width: 300px;
+  position: absolute;
+  left: 300px;
+  margin-left: 49px;
+}
+.socialmedia h3 {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.socialmedia i {
+  color: black;
+  margin-left: 10px;
+  transition: all linear 0.1s;
+}
+
+.socialmedia i:hover {
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+  border: 2px solid black;
+  color: white;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  position: absolute;
+  left: 600px;
+  text-decoration: none;
+}
+.about h3 {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.about a {
+  margin-top: 9px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  font-weight: bold;
+}
+.about a:hover {
+  color: white;
+  padding-left: 3px;
+}
+
+.install {
+  width: 400px;
+  position: absolute;
+  left: 900px;
+}
+.install img {
+  height: 50px;
+  width: 100px;
+}
+.install h3 {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.install {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.install .row {
+  display: flex;
+  display: inline;
+}
+.install .row img {
+  margin-left: 20px;
+}
+/* the footer ended here */
+
+
+/* single product started */
+
+#prodetail {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetail .singlepro-image{
+  width: 40%;
+  margin-right: 110px;
+  margin: 20px 30px;
+}
+
+.sm-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm-img-col{
+
+  cursor: pointer;
+  margin-right: 1px;
+ 
+  margin: 5px 5px;
+}
+
+.sm-img-col img{
+  padding: 2px 2px;
+  background-color:rgba(0,0,0,0.100);
+  margin-top: 8px;
+  width: 150px;
+}
+.single-pro-detail{
+  margin: 60px 70px;
+}
+.single-pro-detail h5{
+text-transform: capitalize;
+color: orangered;
+text-shadow: 2px 2px 2px black;
+font-weight: 900;
+margin-top: 14px;
+}
+.single-pro-detail h3{
+text-transform: capitalize;
+color: green;
+text-shadow: 2px 2px 2px black;
+font-weight: 900;
+margin-top: 14px;
+
+}
+.single-pro-detail h2{
+text-transform: capitalize;
+margin-top: 14px;
+
+text-shadow: 2px 2px 2px black;
+font-weight: 900;
+}
+.single-pro-detail h6{
+text-transform: capitalize;
+margin-top: 14px;
+
+text-shadow: 1px 1px 1px black;
+font-weight: 900;
+margin-top: 14px;
+
+}
+
+.single-pro-detail button{
+  margin-top: 14px  ;
+  margin-bottom: 8px  ;
+  padding: 5px;
+  background-color:green;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.single-pro-detail button:hover{
+  background-color: orange;
+
+}
+.single-pro-detail span{
+
+
+  text-align: justify;
+}
+
+
+
+
+
+/* the  media query for laptops */
+
+@media (min-width: 992px)  {
+  .navbar {
+    margin-bottom: 2px;
+  }
+  
+  #shopcart i {
+    margin-left: -19px;
+  }
+  
+  #header a img {
+    margin-left: -20px;
+  }
+  
+  #header {
+    width: 1348px;
+  }
+  main img {
+    width: 1348px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.single-pro-detail {
+ margin-left: 140px;
+}
+/* footer */
+
+
+.install {
+/* display: none; */
+margin-right: -95px;
+/* visibility: hidden; */
+}
+.about {
+margin-left: 75px;
+}
+.socialmedia {
+  margin-left: 75px;
+}
+footer {
+width: 1348px;
+}
+}
+
+
+
+
+
+
+
+
+/* media query for mobile */
+
+@media(min-width: 360px) and (max-width: 428px){
+  .navbar {
+margin-left: 100px;
+
+}
+.navbar-light .navbar-toggler{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+
+}
+  .navbar-nav{
+    text-transform: uppercase;
+    color: white;
+  
+    margin-left:-160px;
+    margin-top:140px;
+    font-weight: 900;
+    background-color: rgba(0,0,0,0.5);
+
+  }
+  .navbar-nav a{
+color: black;
+  }
+  .navbar-nav li i{
+ margin-left: 60px;
+ color:blue;
+}
+  .navbar-light .navbar-nav .nav-link{
+    color: black;
+  }
+  .collapse ul li a{
+    color: black;
+  }
+ 
+  
+  
+  
+   #header a img {
+    height: 70px;
+    width: 170px;
+    margin-left: -70px;
+     /* width: 40%; */
+
+   }
+
+   #hero {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/samadvt.jpg');
+    
+}
+.myfetured_products {
+margin-left: 70px;
+}
+#feature .fe-box {
+  width: 110px;
+  height: 300px;
+
+  padding: 5px 15px;
+
+}
+#feature .fe-box img {
+  width: 80px;
+  height: auto;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 900px;
+
+}
+.contactlogo {
+  margin-left: 28px;
+}
+.socialmedia {
+position: absolute;
+top: 350px;
+left: 30px;
+  margin-left: 10px;
+}
+.about {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+    margin-left: 10px;
+
+
+}
+
+.install {
+  position: absolute;
+  top: 750px;
+  left: 30px;
+  margin-left: 10px;
+}
+
+
+
+/* this is for the singlepro */
+#prodetail  #mainimage {
+width: 200px;
+} 
+.single-pro-detail {
+  margin: 30px 20px;
+}
+
+.sm-img-col img {
+  padding: 2px 2px;
+  background-color: rgba(0,0,0,0.100);
+  margin-top: 8px;
+  width: 150px;
+}
+.sm-img-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}

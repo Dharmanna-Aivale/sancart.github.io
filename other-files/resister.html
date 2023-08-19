@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+ 
+<!-- the header started -->
+<section id="header"> 
+	<a href=""><img src="../images/san.png" alt=""></a>
+	<!-- <input type="search"  placeholder="search"><span><input type="submit" value="submit"></span> -->
+  
+	<div class=" bootstapnav">
+	<nav class="navbar navbar-expand-lg navbar-light ">
+  
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	   <span class="navbar-toggler-icon"></span>
+	 </button>
+	 <div class="collapse navbar-collapse ml-5" id="navbarNav">
+	   <ul class="navbar-nav pl-5">
+		 <li class="nav-item active">
+		   <a class="nav-link pl-5 " href="../index.html">Home <span class="sr-only">(current)</span></a>
+		 </li>
+		 <li class="nav-item">
+		   <a class="nav-link pl-5  text-dark "class="Uppercase" href="../other-files/buy.html">buy</a>
+		 </li>
+		 <li class="nav-item">
+		   <a class="nav-link pl-5  text-dark" href="../other-files/contact.html">contact us</a>
+		 </li>
+		 
+		 <li class="nav-item pl-5 ">
+		   <a class="nav-link  text-dark" href="../other-files/about.html">about us</a>
+		 </li> 
+		 <li class="nav-item">
+		   <a class="nav-link pl-5  text-dark" href="../other-files/resister.html">sign in</a>
+		 </li>
+		 
+		 <li id="shopcart"><a href="../other-files/singlepro.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+	   </ul>
+	 </div>
+   </nav>
+  </div>
+  
+  </section>
+  <!-- the header ended -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- form starterd -->
+	<main class="backimg">
+	<div class="cdiv">
+<h1>register now!</h1>
+<hr>
+<form class="formee" onsubmit="return validations()">
+	<div>
+		<label>f-name</label>
+		<input class="pad1" type="text" name=" " placeholder="Enter first name " id="fname"oninput="clearError('efname')" >
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="efname"> </span>
+	</div><br>
+		<div>
+		<label>l-name</label>
+		<input class="pad2" type="text" name="" placeholder="Enter last name" id="lname" oninput="clearError('elname')">
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="elname"> </span>
+	</div><br>
+	<div>
+		<label>phone</label>
+		<input class="pad3" type="number" name="" placeholder="Enter phone number " id="phone" oninput="clearError('ephone')">
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="ephone"> </span>
+	</div><br>
+	<div>
+		<label>email</label>
+		<input class="pad4" type="text" name="" placeholder="Enter email id" id="email" oninput="clearError('eemail')">
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="eemail"> </span>
+	</div><br>
+		<div>
+		<label>password</label>
+		<input class="pad5" type="password" name="" placeholder="Enter Password " id="password"oninput="clearError('epassword')">
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="epassword"> </span>
+	</div><br>
+		<div>
+		<label>conform </label><br>
+		<label>password</label>
+		<input class="pad6" type="password" name="" placeholder="Enter conform password" id="conformpassword" oninput="clearError('econformpassword')">
+		<span class="error" style=" color: red; font-weight: bold; text-transform: uppercase;" id="econformpassword"> </span>
+	</div><br>
+	<input type="submit" name="" value="submit" style=" width: 100px; background-color: green; border-radius: 5px; color: white;"> <span> 	<input type="submit" name="" value="reset" style=" width: 100px; background-color: green; border-radius: 5px; color: white ;"></span>
+</form>	
+</div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- the footer starts -->
+ <footer>
+	<div class="formargin"> 
+		<div class="contactlogo">
+	<img src="../images/san.png" alt="">
+	<h3>contact us</h3>
+	<p><b>Address : </b> 165, Railway Lines, · Saat Rasta, Solapur - 413001 · Post Box No. 52 </p>
+	<p><b>phone :</b> +91-9146040203</p>
+	<p><b>Timing :</b>09.00 A.M. TO 06.00 P.M.  mon-sat</p>
+  </div>
+  
+   <div class="socialmedia">
+	<h3>follow us</h3>
+   <a href="#"> <i class="fab fa-facebook"></i></a>
+   <a href="https://www.linkedin.com/in/dharmanna-aivale-a01b76239/"> <i class="fab fa-linkedin"></i></a>
+   <a href="https://www.instagram.com/dharma_1403/"> <i class="fab fa-instagram"></i></a>
+   <a href="https://github.com/Dharmanna-Aivale"> <i class="fab fa-github"></i></a>
+  
+  
+   </div>
+  </div>
+  
+  
+  
+  <div class="about">
+	<h3>about</h3>
+  <a href="#" class="decoretionnone">terms and conditions</a>
+  <a href="#" class="decoretionnone"> privecy polocy</a>
+  <a href="#" class="decoretionnone"> delivery information</a>
+  <a href="#" class="decoretionnone"> inquiries</a>
+  <a href="#" class="decoretionnone"> complains</a>
+   </div>
+  
+   <div class="install">
+	<h3>instal our app</h3>
+	<p> From play store and apple store</p>
+	<div class="row">
+	  <a href=""> <img src="../images/installapp/appstore.png" alt=""></a>
+	  <a href="#"><img src="../images/installapp/playsote.png" alt=""></a>
+	  <!-- <p>the payment gateways</p>
+	  <img src="images/installapp/paymentgateway.png" alt=""> -->
+	</div> 
+  
+  
+  </div>
+  
+  </footer>
+
+
+
+
+<script type="text/javascript">
+ clearError=(errorId)=> {
+        document.getElementById(errorId).innerHTML = "";
+    }
+	const validations=()=>{
+		// fname starts
+		 var fname=document.getElementById('fname').value;
+		 	 if(fname==""){
+		 	document.getElementById('efname').innerHTML="***please fill the field ";
+		 	return false;
+}
+
+ 	 if(fname.length<=2){
+		 	document.getElementById('efname').innerHTML="***username is too short ";
+		 	return false;
+
+		 }
+	
+		  if(fname.length>20){
+		 	document.getElementById('efname').innerHTML="***username is too long";
+		 	return false;
+
+		 }
+		   if(!isNaN(fname)){
+		 	document.getElementById('efname').innerHTML="***  only characters are allowed";
+		 	return false;
+
+		 }
+        // lname starts
+		 var lname=document.getElementById('lname').value;
+		  if(lname==""){
+		 	document.getElementById('elname').innerHTML="***please fill the field ";
+		 	return false;
+
+		 }
+		  if(lname.length<=2){
+		 	document.getElementById('elname').innerHTML="***last neme is too short ";
+		 	return false;
+
+		 }
+		   if(lname.length>20){
+		 	document.getElementById('elname').innerHTML="***last neme is too long ";
+		 	return false;
+
+		 }
+		 	 if(!isNaN(lname)){
+		 	document.getElementById('elname').innerHTML="***characters only ";
+		 	return false;
+
+		 }
+// phone number started
+		 var phone=document.getElementById('phone').value;
+		    if(phone==""){
+		 	document.getElementById('ephone').innerHTML="***please fill this field ";
+		 	return false;
+
+		 }
+		 if(phone.length!=10){
+		 	document.getElementById('ephone').innerHTML="***enter 10 digits";
+		 	return false;
+
+		 }
+		  if(isNaN(phone)){
+		 	document.getElementById('ephone').innerHTML="***only digits are allowed";
+		 	return false;
+
+		 }
+		  var email=document.getElementById('email').value;
+		   if(email==""){
+		 	document.getElementById('eemail').innerHTML="***please fill this field";
+		 	return false;
+
+		 }
+
+		 // var email=document.getElementById('email').value;
+		   if(email.indexOf('@')<=0){
+		 	document.getElementById('eemail').innerHTML="***@ invalid position";
+
+		 }
+		    if((email.charAt(email.length-4)!='.')&&(email.charAt(email.length-3)!='.')){
+		 	document.getElementById('eemail').innerHTML="*** . invalid postion";
+		 	return false;
+
+		 }
+		 var password=document.getElementById('password').value;
+		     if(password==""){
+		     	document.getElementById('epassword').innerHTML="***please fill the field";
+		   		 	return false;
+
+		 }
+		 	  if(password.length<=5){
+		 	document.getElementById('epassword').innerHTML="*** weak password";
+		 	return false;
+
+		 } 	  if(password.length>20){
+		 	document.getElementById('epassword').innerHTML="***password is too long";
+		 	return false;
+
+		 }
+
+
+		 var conformpassword=document.getElementById('conformpassword').value;
+		 	     if(conformpassword==""){
+		     	document.getElementById('econformpassword').innerHTML="***please fill the field";
+		   		 	return false;
+
+		 }
+		   if(conformpassword!=password){
+		     	document.getElementById('econformpassword').innerHTML="***passwords are not matching ";
+		   		 	return false;
+}
+else{
+	alert("registered");
+	return true;
+	}
+			
+		}	
+	</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+	</html>
